@@ -1,0 +1,30 @@
+body{
+    background-image:url("main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7.jpg");
+}
+
+canvas{
+    border:3px solid white;
+    margin-top:20px;
+}
+
+h1{
+    font-size:30px !important;
+    font-family: 'Luckiest Guy', cursive;
+    background:white;
+}
+
+#filters{
+    height:100;
+    width:100;
+}
+
+#filters1{
+    height:75;
+    width:100;
+}
+
+#filters2{
+    margin-left:10;
+    height:50;
+    width:110;
+}

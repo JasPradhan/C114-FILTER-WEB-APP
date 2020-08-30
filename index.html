@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Realtime Filter Webapp by using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7.jpg">
+<center>
+  <h1 class="btn btn-dark">
+    Realtime Filter App
+  </h1>
+  <br><br><br>
+  <button onclick="takeSnapshot()" class="btn btn-success">Take Snapshot</button>
+</center>
+
+<div>
+  <button onclick="mousTache()">
+    <img id="filters2" src="47-473992_moustache-png-transparent-moustache-png-images-pluspng-mustache.png">
+  </button>
+</div>
+
+<br><br>
+
+<div class="btn btn-dark">
+  <button onclick="lipStick()">
+    <img id="filters1" src="PNGPIX-COM-Lips-PNG-Transparent-Image-2.png">
+  </button>
+</div>
+
+<br><br>
+
+<div class="btn btn-dark">
+  <button onclick="clownNose()">
+    <img id="filters" src="clown nose image.png">
+  </button> 
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
