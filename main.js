@@ -53,39 +53,7 @@ function got_poses(results){
 }
 
 
-/*
-function got_poses_lip_stick(results){
-    if(results.length > 0){
-        console.log(results);
-        console.log("lip_stick x position ="+results[0].pose.nose.x);
-        console.log("lip_stick y position ="+results[0].pose.nose.y);
-        Xcoordinate_lip_stick=results[0].pose.nose.x-20;
-        Ycoordinate_lip_stick=results[0].pose.nose.y-45;
-    }
-}
 
-function got_poses_moustache(results){
-    if(results.length > 0){
-        console.log(results);
-        console.log("moustache x position ="+results[0].pose.nose.x);
-        console.log("moustache y position ="+results[0].pose.nose.y);
-        Xcoordinate_moustache=results[0].pose.nose.x-20;
-        Ycoordinate_moustache=results[0].pose.nose.y-40;
-    }
-}
-*/
-/*
-function clownNose(){
-    got_poses();
-}
-function lipStick(){
-    got_poses();
-}
-function mousTache(){   
-    got_poses_moustache();
-}
-
-*/
 function modelLoaded(){
     console.log("PoseNet initialized");
 }
@@ -101,16 +69,6 @@ function draw(){
     else if(filter==3){
         image(moustache ,Xcoordinate_clown_nose-20 ,Ycoordinate_clown_nose-10 ,100 , 100);
     }
-
-  //  if (counter=1){
-  //      image(clown_nose ,Xcoordinate_clown_nose ,Ycoordinate_clown_nose ,40 ,40);
-  //  }
-  //  else if (counter=2){
-   //     image(lip_stick ,Xcoordinate_clown_nose ,Ycoordinate_clown_nose ,40 ,40);
-   // }
-    //else if (counter=3){
-    //    image(moustache ,Xcoordinate_clown_nose ,Ycoordinate_clown_nose ,40 ,40);
-    //}
 }
 
 function takeSnapshot(){
